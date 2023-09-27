@@ -40,18 +40,17 @@ body {
     border-radius: 5px;
 }
 
+/* App-content */
 .app-content {
     flex-grow: 1;
     overflow: hidden;
     display: flex;
 }
-
+/* Sidebar */
 .sidebar {
     background-color: var(--dark-blue);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;  
-    width: 50px;
+    background-image: url(../img/sidebar-bg.png);     
+    width: 70px;
     flex-shrink: 0;
 }
 
@@ -67,6 +66,25 @@ body {
     flex-grow: 1;
     overflow: hidden;
 }
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { ... }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .sidebar {
+        width: 150px;
+    }
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
 
 
 

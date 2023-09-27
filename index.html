@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Bootstrap Dashboard</title>
 </head>
-<body class=".debug">
+<body>
     <div id="app">
         <!-- Toolbar -->
         <aside class="toolbar"> 
@@ -31,7 +31,24 @@
         </aside>        
         <div class="app-content">  
             <!-- Sidebar laterale Header -->
-            <header class="sidebar">
+            <header class="sidebar d-flex justify-content-between flex-column py-4 wi">
+                <div class="top-icons d-flex flex-column align-items-center">
+                    <div>
+                        <a class="text-decoration-none text-light" href="#"><i class="fa-solid fa-house mb-2"></i></a>
+                        <span class="text-light">Home</span>
+                    </div>
+                    <div>
+                        <a class="text-decoration-none text-light" href=""><i class="fa-solid fa-chart-simple mb-2"></i></a>
+                        <span class="text-light">Stats</span>
+                    </div>
+                    <div>
+                        <a class="text-decoration-none text-light" href="#"><i class="fa-solid fa-signal mb-2"></i></a>
+                        <span class="text-light">Signals</span>
+                    </div>
+                </div>
+                <div class="bottom-icons text-center">
+                    <a href="#"><i class="fa-solid fa-gear text-light"></i></a>
+                </div>
 
             </header>
             <!-- Main content -->
