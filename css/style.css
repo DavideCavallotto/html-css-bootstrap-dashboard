@@ -2,6 +2,7 @@
     --dark-white: #F8F9FA;
     --dark-blue: #051E34;
     --light-blue: #1B72E8;
+    --obscure-blue: #165BBA;
     --dark-grey: #E5E5E5;    
 }
 
@@ -32,7 +33,7 @@ body {
 }
 
 .bool-logo-mobile {
-    width: 34px;
+    width: 40px;
 }
 
 .search-bar {
@@ -54,8 +55,10 @@ body {
     flex-shrink: 0;
 }
 
+
 .blue-hero {
     background-color: var(--light-blue);
+    color: white;
 }
 
 .main-body {
@@ -67,14 +70,35 @@ body {
     overflow: hidden;
 }
 
+.bool-badge {
+    background-color: var(--obscure-blue);
+        
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { ... }
 
 /* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
+@media (min-width: 768px) {
+    .boolean-plane {
+        order: 1;
+    }
+
+    .online-student {
+        order: 2;
+    }
+
+    .new-student {
+        order: 3;
+    }
+}
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
+@media (min-width: 992px) { 
+    
+
+
+ }
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 

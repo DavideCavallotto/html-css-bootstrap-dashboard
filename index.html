@@ -32,33 +32,70 @@
         <div class="app-content">  
             <!-- Sidebar laterale Header -->
             <header class="sidebar d-flex justify-content-between flex-column py-4 wi">
-                <div class="top-icons d-flex flex-column align-items-center">
-                    <div>
-                        <a class="text-decoration-none text-light" href="#"><i class="fa-solid fa-house mb-2"></i></a>
-                        <span class="text-light">Home</span>
-                    </div>
-                    <div>
-                        <a class="text-decoration-none text-light" href=""><i class="fa-solid fa-chart-simple mb-2"></i></a>
-                        <span class="text-light">Stats</span>
-                    </div>
-                    <div>
-                        <a class="text-decoration-none text-light" href="#"><i class="fa-solid fa-signal mb-2"></i></a>
-                        <span class="text-light">Signals</span>
-                    </div>
+                <div class="top-icons d-flex flex-column justify-content-center align-items-center"> 
+
+                    <a class="text-decoration-none text-light" href="#">
+                        <i class="fa-solid fa-house mb-2 fs-3"></i>
+                        <span class="text-light d-none d-xl-inline-block ms-2">Home</span>
+                    </a>                   
+                
+                    <a class="text-decoration-none text-light" href="">
+                        <i class="fa-solid fa-chart-simple mb-2 fs-3"></i>
+                        <span class="text-light d-none d-xl-inline-block ms-2">Stats</span>
+                    </a>
+                
+                
+                    <a class="text-decoration-none text-light" href="#">
+                        <i class="fa-solid fa-signal mb-2 fs-3"></i>
+                        <span class="text-light d-none d-xl-inline-block ms-2">Signals</span>
+                    </a>
+                   
                 </div>
-                <div class="bottom-icons text-center">
-                    <a href="#"><i class="fa-solid fa-gear text-light"></i></a>
+                <div class="botton-icons d-flex justify-content-center">
+                    <a class="text-decoration-none text-light" href="">
+                        <i class="fa-solid fa-gear fs-3"></i>
+                    </a>
+                    <span class="text-light d-none d-xl-inline-block ms-2">Admin</span>
                 </div>
 
             </header>
             <!-- Main content -->
             <main class="main-content d-flex flex-column">
-                <div class="blue-hero">
+                <section class="blue-hero"> 
+                    <div class="container-fluid py-4">
+                        <div class="row align-items-center">
+                            <div class="new-student col-lg-2 col-md-4 d-flex align-items-baseline">
+                                <p class="pe-3 m-0">Nuovo Studente</p>
+                                <button class="btn btn-outline-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                    <i class="fa-solid fa-plus"></i> 
+                                </button>                                                             
+                            </div>
+                            <div class="boolean-plane col-lg-6 col-md-4 mt-3">
+                                <div class="d-flex align-items-center">
+                                    <h1>Boolean</h1>
+                                    <span class="bool-badge badge rounded-pill">Piano blaze</span>
+                                </div>
+                                <div>
+                                    <span class="bool-badge badge rounded-pill">3 app</span>
+                                    <span><i class="fa-solid fa-angles-right"></i></span>
+                                    <span class="bool-badge badge rounded-pill d-sm-inline-block d-lg-none"><i class="fa-solid fa-plus"></i></span>
+                                    <span class="bool-badge badge rounded-pill d-none d-lg-inline-block">Boolean mobile app</span>
+                                    <span class="bool-badge badge rounded-pill d-none d-lg-inline-block">Boolean web app</span>
+                                    <span class="bool-badge badge rounded-pill d-none d-lg-inline-block">Boolean blog app</span>
+                                </div>
+                            </div>
+                            <div class="online-student col-lg-4 col-md-4 mt-3">
+                                <p class="m-0">Studenti online negli ultimi 30 minuti</p>
+                                <h1>125</h1>
+                            </div>
+                        </div>
+                    
+                    </div>                   
 
-                </div>
-                <div class="main-body flex-grow-1">
+                </section>
+                <section class="main-body flex-grow-1">
 
-                </div>            
+                </section>            
             </main>    
             
                     
