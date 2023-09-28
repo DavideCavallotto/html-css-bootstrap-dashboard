@@ -21,6 +21,10 @@ img {
 body {
     background-color: var(--dark-white);
 }
+
+.body-boolean .offcanvas {
+    width: 100%;
+}
 /* Toolbar */
 .toolbar {    
     height: auto;
@@ -33,7 +37,7 @@ body {
 }
 
 .bool-logo-mobile {
-    width: 40px;
+    width: 50px;
 }
 
 .search-bar {
@@ -55,6 +59,7 @@ body {
     flex-shrink: 0;
 }
 
+/* main content */
 
 .blue-hero {
     background-color: var(--light-blue);
@@ -62,12 +67,12 @@ body {
 }
 
 .main-body {
-    background-color: var(--dark-white);
+    background-color: var(--dark-white);    
 }
 
 .main-content {
     flex-grow: 1;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .bool-badge {
@@ -75,8 +80,20 @@ body {
         
 }
 
+.icon-class {
+    width: 40px;
+    background-color: white;
+}
+
+
+
+
+
 /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) { ... }
+@media (min-width: 576px) { 
+    
+
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -84,11 +101,11 @@ body {
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
-    
-
-
- }
+@media (min-width: 992px) {   
+    .body-boolean .offcanvas {
+        width: 600px;
+    }
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
